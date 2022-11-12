@@ -1,0 +1,218 @@
+@import url("../../../../global/global.scss");
+
+/* FONT */
+$font-light: "Poppins-Light";
+$font-thin: "Poppins-Thin";
+$font-italic: "Poppins-Italic";
+$font-regular: "Poppins-Regular";
+$font-semiBold: "Poppins-SemiBold";
+$font-bold: "Poppins-Bold";
+$font-black: "Poppins-Black";
+
+/* COLOR */
+$blue: #2C6BFF;
+$white: #fff;
+$black: #000;
+
+html, body, #root{
+    height: 100%;
+    margin: 0;
+}
+
+grammarly-desktop-integration{
+    display: none;
+}
+
+#login_wrapper{
+    background: url("https://cutecdn.codingdojo.com/new_design_image/talent_book/login_bg.png") no-repeat 673px -550px / 1024px;
+    min-height: 100%;
+    min-width: 1400px;
+    padding: 0 40px;
+
+    .cd_logo{
+        display: block;
+        margin-bottom: 15px;
+
+        img{
+            margin-top: 37px;
+        }
+    }
+
+    .talent_book_block{
+        align-items: flex-end;
+        display: flex;
+        margin-bottom: 35px;
+
+        span{
+            font: 30px/34px $font-semiBold;
+            margin: 0 0 6px 5px;
+        }
+    }
+
+    #sign_up_form, #sign_in_form{
+        display: flex;
+        flex-direction: column;
+        max-width: 435px;
+        position: relative;
+
+        &#sign_in_form{
+            label[for="candidate_password"]{
+                #candidate_password{
+                    margin-bottom: 0;
+    
+                    &.input_error{
+                        margin-bottom: 20px;
+                    }
+                }
+    
+                .message_error{
+                    bottom: 55px;
+                }
+            }
+        }
+
+        .no_user_found{
+            color: #D62E24;
+            font: 14px/18px $font-bold;
+            position: absolute;
+            top: -25px;
+        }
+
+        input:not(input[type="checkbox"]):not(input[type="submit"]){
+            border-radius: 4px;
+            border: 1px solid #E0E0E0;
+            font: 16px/20px $font-regular;
+            height: 56px;
+            margin-bottom: 28px;
+            outline: none;
+            padding: 0 16px;
+            width: 100%;
+
+            &#candidate_password{
+                margin-bottom: 30px;
+            }
+        }
+
+        label[for="candidate_password"]{
+            position: relative;
+
+            .show_password_btn{
+                background: transparent;
+                border: none;
+                cursor: pointer;
+                height: 58px;
+                outline: none;
+                position: absolute;
+                right: 0;
+                top: 0;
+
+                svg{
+                    color: #666666;
+                    font-size: 21px;
+                    margin-right: 5px;
+                }
+            }
+
+            .forgot_password_btn{
+                background: none;
+                border: none;
+                color: $blue;
+                cursor: pointer;
+                font: 14px/18px $font-light;
+                margin: 5px 0 30px;
+                outline: none;
+                padding: 0;
+            }
+        }
+
+        label[for="terms_condition"]{
+            align-items: center;
+            display: flex;
+            margin-bottom: 68px;
+
+            p{
+                color: $black;
+                font: 14px/18px $font-light;
+                margin: 0 0 0 10px;
+
+                a{
+                    color: $blue;
+                    text-decoration: none;
+                }
+            }
+
+          
+            .checkbox_style{
+                align-items: center;
+                border-radius: 4px;
+                border: 2px solid $blue;
+                cursor: pointer;
+                display: flex;
+                height: 18px;
+                justify-content: center;
+                max-width: 18px;
+                min-width: 18px;
+
+                &.no_check{
+                    border: 1px solid #D62E24;
+                }
+
+                svg{
+                    color: $white;
+                    display: none;
+                    font-size: 18px;
+                }
+            }
+
+            #terms_condition:checked{
+                & + .checkbox_style{
+                    background: $blue;
+                    svg{
+                        display: unset;
+                    }
+                }
+            }
+        }
+
+        label{
+            position: relative;
+
+            .message_error{
+                bottom: 10px;
+                color: #D62E24;
+                font: 12px/16px $font-regular;
+                left: 0;
+                position: absolute;
+            }
+        }
+
+        #submit_sign_up_btn, #submit_sign_in_btn{
+            background: $blue;
+            border-radius: 4px;
+            border: none;
+            color: $white;
+            cursor: pointer;
+            font: 16px/20px $font-semiBold;
+            height: 46px;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+            outline: none;
+            width: 164px;
+        }
+    }
+
+    >p{
+        font: 14px/18px $font-light;
+        padding-bottom: 20px;
+
+        a{
+            color: $blue;
+            text-decoration: none;
+        }
+    }
+
+    @media screen and (min-width: 1680px) {
+        margin: 0 auto;
+        max-width: 1700px;
+    }
+}

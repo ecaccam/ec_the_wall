@@ -1,0 +1,21 @@
+<h1>The Wall</h1>
+<hr>
+<span><strong>Welcome <%= session[:first_name] %>! </strong></span>
+<a href="/users/logout">Logout</a>
+<br> <br>
+<form action="/posts/create" method="post" id="create_post_form">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <textarea name="message" id="textarea_post_input" cols="40" rows="5"></textarea> <br>
+    <input type="submit" value="Post">
+</form>
+<div id="wall_container">
+   <%= render :partial => "posts/partials/post_lists.html.erb", :locals => { :posts => @all_posts } %>
+</div>
+<form action="/posts/delete" method="post" id="delete_post_form">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <input type="hidden" name="post_id" id="post_id" value="">
+</form>
+<form action="/comments/delete" method="post" id="delete_comment_form">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <input type="hidden" name="comment_id" id="comment_id" value="">
+</form>

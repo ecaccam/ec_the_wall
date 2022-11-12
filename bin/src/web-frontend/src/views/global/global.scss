@@ -1,0 +1,203 @@
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("../../assets/fonts/poppins/Poppins-Light.ttf")
+}
+
+@font-face {
+    font-family: "Poppins-Thin";
+    src: url("../../assets/fonts/poppins/Poppins-Thin.ttf")
+}
+
+@font-face {
+    font-family: "Poppins-Italic";
+    src: url("../../assets/fonts/poppins/Poppins-Italic.ttf")
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../../assets/fonts/poppins/Poppins-Regular.ttf")
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("../../assets/fonts/poppins/Poppins-SemiBold.ttf")
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("../../assets/fonts/poppins/Poppins-Bold.ttf")
+}
+
+@font-face {
+    font-family: "Poppins-Black";
+    src: url("../../assets/fonts/poppins/Poppins-Black.ttf")
+}
+
+/* FONT */
+$font-light: "Poppins-Light";
+$font-thin: "Poppins-Thin";
+$font-italic: "Poppins-Italic";
+$font-regular: "Poppins-Regular";
+$font-semiBold: "Poppins-SemiBold";
+$font-bold: "Poppins-Bold";
+$font-black: "Poppins-Black";
+
+/* COLOR */
+$blue: #2C6BFF;
+$white: #fff;
+$black: #000;
+
+.input_error{
+    border: 1px solid #D62E24 !important;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.disabled{
+    opacity: .3;
+    pointer-events: none;
+}
+
+nav{
+    align-items: center;
+    background: $blue;
+    display: flex;
+    height: 60px;
+    padding: 15px 20px 15px 10px;
+
+    a{
+        text-decoration: none;
+    }
+
+    .cd_logo{
+        img{
+            width: 124px;
+        }
+    }
+
+    .talent_book_logo{
+        margin-left: 15px;
+    }
+
+    ul{
+        list-style: none;
+        margin: 0 0 0 auto;
+        padding: 0;
+
+        .user_profile_details{
+            a{
+                align-items: center;
+                display: flex;
+                justify-content: center;
+
+                img{
+                    height: 32px;
+                    margin-right: 10px;
+                    width: 32px;
+                }
+
+                .user_details{
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+
+                    span{
+                        color: $white;
+                        font: 14px/18px $font-bold;
+
+                        &:last-child{
+                            font: 14px/18px $font-regular;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sidebar{
+    align-self: stretch;
+    background: $white;
+    width: 223px;
+
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 20px 15px 20px 20px;
+
+        li{
+            align-items: center;
+            display: flex;
+            margin-bottom: 23px;
+
+            .sidebar_icon{
+                background-position: 0px 0px;
+                background: url("https://cutecdn.codingdojo.com/new_design_image/talent_book/sidebar_icons.svg") no-repeat;
+                display: block;
+                height: 24px;
+                margin-right: 10px;
+                width: 24px;
+
+                &.resume_links_icon, &.resume_books_icon{
+                    background-position: -34px 0px;
+                }
+
+                &.logout_icon{
+                    background-position: -67px 0px;
+                }
+
+                &.dashboard_icon{
+                    background-position: -102px 0px;
+                }
+
+                &.candidate_management_icon{
+                    background-position: 0px 0px;
+                }
+
+                &.company_management_icon{
+                    background-position: -136px 0px;
+                }
+
+                &.job_requisitions_icon{
+                    background-position: -169px 0px;
+                }
+            }
+
+            a{
+                color: #333333;
+                font: 12px/16px $font-semiBold;
+                text-decoration: none;
+            }
+
+            &.active{
+                a{
+                    color: $blue;
+                }
+
+                .sidebar_icon{
+                    &.profile_icon, &.candidate_management_icon{
+                        background-position: 0px -34px;
+                    }
+
+                    &.resume_links_icon, &.resume_books_icon{
+                        background-position: -34px -34px;
+                    }
+    
+                    &.logout_icon{
+                        background-position: -67px -34px;
+                    }
+
+                    &.company_management_icon{
+                        background-position: -136px -34px;
+                    }
+
+                    &.job_requisitions_icon{
+                        background-position: -169px -34px;
+                    }
+                }
+            }
+        }
+    }
+}

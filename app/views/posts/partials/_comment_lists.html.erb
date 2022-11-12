@@ -1,0 +1,8 @@
+<% comments.each do |comment| %>
+    <li>
+        <span><strong><%= comment["commenter_first_name"] %>: </strong></span><i><%= comment["commenter_message"] %></i> 
+    <% if session[:user_id] === comment["commenter_user_id"].to_i %> 
+        <button class="delete_comment_button" data-comment-id="<%= comment["comment_id"] %>">Delete</button>
+    <% end %>
+    </li>
+<% end %>

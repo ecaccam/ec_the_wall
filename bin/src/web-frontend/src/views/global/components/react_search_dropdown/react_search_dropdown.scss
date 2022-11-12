@@ -1,0 +1,169 @@
+@import url("../../../global/global.scss");
+
+/* FONT */
+$font-light: "Poppins-Light";
+$font-thin: "Poppins-Thin";
+$font-italic: "Poppins-Italic";
+$font-regular: "Poppins-Regular";
+$font-semiBold: "Poppins-SemiBold";
+$font-bold: "Poppins-Bold";
+$font-black: "Poppins-Black";
+
+/* COLOR */
+$blue: #2C6BFF;
+$white: #fff;
+$black: #000;
+
+.react-dropdown-select{
+    border-radius: 4px !important;
+    border: 1px solid #E0E0E0;
+    font: 16px/20px "Poppins-Regular";
+    height: 58px;
+    margin-bottom: 28px;
+    outline: none;
+    padding: 0 16px !important;
+    position: relative !important;
+    width: 435px !important;
+
+    &.input_error{
+        &::after{
+            bottom: -20px;
+            color: #D62E24;
+            content: "This field is required.";
+            font: 12px/16px $font-regular;
+            left: 0;
+            position: absolute;
+        }
+    }
+
+    .select_placeholder{
+        color: #6E6E6E;
+        font: 16px/20px "Poppins-Regular";
+    }
+
+    .react-dropdown-select-content{
+        .react-dropdown-select-input{
+            display: none;
+        }
+
+        .multi_select_counter{
+            margin-left: 8px;
+            background: $blue;
+            font: 14px/18px $font-bold;
+            display: flex;
+            align-items: center;justify-content: center;
+            color: $white;
+            padding: 0 5px;
+            border-radius: 8px;
+        }
+    }
+
+    .clear_icon{
+        background: url("https://assets.codingdojo.com/learn_platform/global/close_icon_new.png") no-repeat;
+        height: 33px;
+        width: 33px;
+
+        & ~ .react-dropdown-select-dropdown-handle{
+            display: none;
+        }
+    }
+
+    .react-dropdown-select-dropdown{
+        border-radius: 5px;
+        box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.14), 0px 3px 3px rgba(0, 0, 0, 0.12), 0px 1px 8px rgba(0, 0, 0, 0.2);
+        max-height: 650px;
+        overflow: unset;
+
+        .dropdown_container{
+            .dropdown_search_block{
+                background: $white;
+                border-bottom: 1px solid #E0E0E0;
+                border-radius: 5px 5px 0 0;
+                padding: 20px;
+
+                input{
+                    margin-bottom: 0 !important;
+                    max-width: unset;
+                }
+            }
+
+            >.dropdown_menu{
+                max-height: 250px;
+                list-style: none;
+                margin: 0;
+                overflow: auto;
+                padding: 0;
+    
+                .category_label{
+                    color: #6E6E6E;
+                    display: block;
+                    margin: 20px 0 0 0;
+                    padding: 0 20px;
+                }
+    
+                >li{
+                    .dropdown_menu{
+                        overflow: unset;
+                    }
+
+                    >ul{
+                        padding-left: 0;
+                    }
+                }
+                
+                li.item_result{
+                    align-items: center;
+                    display: flex;
+                    height: 52px;
+                    padding: 0 20px;
+    
+                    label{
+                        height: 20px !important;
+                        margin: 0 10px 0 0 !important;
+                        width: 20px !important;
+    
+                        .checkbox_style{
+                            align-items: center;
+                            border-radius: 4px;
+                            border: 2px solid #666666;
+                            display: inherit;
+                            height: 18px;
+                            justify-content: center;
+                            margin-right: 5px;
+                            width: 18px;
+                        }
+                
+                        input[type=checkbox]{
+                            display: none;
+                        }
+                
+                        input[type=checkbox]:checked ~ .checkbox_style{
+                            background: url("https://cutecdn.codingdojo.com/new_design_image/talent_book/checkbox_style.svg") no-repeat;
+                            border: none;
+                            height: 20px;
+                            width: 20px;
+                        }
+                    }
+    
+                    >span{
+                        color: $black;
+                        font: 16px/20px "Poppins-Regular";
+                    }
+    
+                    &.active{
+                        background-color: $blue;
+    
+                        span{
+                            color: $white;
+                        }
+                    }
+    
+                    &:last-child{
+                        border-radius: 0 0 5px 5px;
+                    }
+                }
+            }
+        }
+
+    }
+}

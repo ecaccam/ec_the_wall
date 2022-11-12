@@ -1,0 +1,45 @@
+#background_form{
+    .coding_dojo_graduate_block{
+        display: flex;
+        flex-wrap: wrap;
+
+        .check_box_block{
+            margin-bottom: 70px !important;
+            width: 435px;
+        }
+
+        >div{
+            &.coding_dojo_program_block{
+                margin-left: 20px;
+            }
+
+            &.career_service_manager_block{
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .graduate_date_block{
+        margin-bottom: 22px;
+    }
+
+    .program_coverage_block{
+        margin-bottom: 34px;
+    }
+
+    .highest_degree_block, .years_experience_block{
+        margin-bottom: 66px;
+    }
+
+    .university_block{
+        margin-bottom: 50px;
+    }
+
+    .program_coverage_block{
+        position: relative;
+
+        .is_label_selected_item{
+            position: absolute;
+        }
+    }
+}

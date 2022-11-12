@@ -1,0 +1,43 @@
+.label_block{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 24px;
+
+    label{
+        align-items: center;
+        cursor: pointer;
+        display: flex !important;
+        height: 30px !important;
+        justify-content: flex-start;
+        margin-bottom: 20px !important;
+        width: 120px !important;
+
+        &:last-child{
+            width: unset !important;
+            min-width: 120px;
+        }
+
+        .radio_marker{
+            align-items: center;
+            border-radius: 50%;
+            border: 2px solid #666666;
+            display: inherit;
+            height: 20px;
+            justify-content: center;
+            margin-right: 5px;
+            width: 20px;
+        }
+
+        input[type=radio]{
+            display: none;
+        }
+
+        input[type=radio]:checked ~ .radio_marker{
+            background: url("https://cutecdn.codingdojo.com/new_design_image/talent_book/radio_button_selected.svg") no-repeat;
+            border: none;
+            height: 20px;
+            width: 20px;
+        }
+    }
+}

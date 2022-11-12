@@ -1,0 +1,378 @@
+@import url("../../../../global/global.scss");
+
+/* FONT */
+$font-light: "Poppins-Light";
+$font-thin: "Poppins-Thin";
+$font-italic: "Poppins-Italic";
+$font-regular: "Poppins-Regular";
+$font-semiBold: "Poppins-SemiBold";
+$font-bold: "Poppins-Bold";
+$font-black: "Poppins-Black";
+
+/* COLOR */
+$blue: #2C6BFF;
+$white: #fff;
+$black: #000;
+
+.view_candidate_popover{
+    .action_btn{
+        button{
+            background: transparent;
+            border: none;
+            box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+            color: $black;
+            font: 14px/18px $font-regular;
+            outline: none;
+            padding: 10px;
+        }
+    }
+}
+
+#candidate_list_wrapper{
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: 30px;
+    width: 1070px;
+
+    .title_block{
+        align-items: center;
+        display: flex;
+        margin-bottom: 25px;
+
+        h1{
+            color: $black;
+            font: 26px/30px $font-semiBold;
+        }
+
+        .export_btn{
+            background-color: transparent;
+            border: none;
+            color: $blue;
+            font: 14px/18px $font-semiBold;
+            margin-left: auto;
+        }
+    }
+
+    .header_block{
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 32px;
+        
+        .search_candidate{
+            border-radius: 4px;
+            border: none;
+            filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.14)) drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.12)) drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.2));
+            font: 16px/20px $font-regular;
+            height: 56px;
+            margin-bottom: 12px;
+            outline: none;
+            padding: 0 40px;
+            width: 100%;
+        }
+
+        >div{
+            height: 36px;
+
+            .sort_candidate{
+                background-color: transparent;
+                border: 1px solid #675799;
+                height: 36px;
+                margin-right: 24px;
+                width: 84px !important;
+    
+                .sort_btn{
+                    background-color: transparent;
+                    border: none;
+                    color: #675799;
+                    font: 14px/18px $font-semiBold;
+                    outline: none;
+                }
+    
+                .react-dropdown-select-dropdown-handle{
+                    display: none;
+                }
+    
+                .react-dropdown-select-dropdown{
+                    width: 360px;
+                }
+            }
+        }
+
+        .advance_filter_btn{
+            background-color: transparent;
+            border-radius: 4px;
+            border: 1px solid #675799;
+            color: #675799;
+            font: 14px/18px $font-semiBold;
+            height: 36px;
+            outline: none;
+            padding: 0 20px;
+        }
+    }
+
+    #candidate_list_data_wrapper{
+        list-style: none;
+        margin: 0 0 75px 0;
+        padding: 0;
+
+        li{
+            align-items: center;
+            background: $white;
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+            display: flex;
+            height: 71px;
+            margin-bottom: 16px;
+            padding: 0 24px;
+
+            &:last-child{
+                margin-bottom: 0;
+            }
+
+            >div{
+                min-width: 300px;
+
+                &:last-child{
+                    margin-left: auto;
+                    min-width: unset;
+                }
+            }
+
+            .details{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+
+                .name, .job_title, .status{
+                    color: #051226;
+                    font: 14px/18px $font-semiBold;
+
+                    &.status{
+                        color: #1DAA33;
+
+                        &.inactive{
+                            color: #D62E24;
+                        }
+                    }
+                }
+
+                .location, .experience{
+                    color: #394A64;
+                    font: 12px/16px $font-regular;
+                }
+
+                .last_modified{
+                    color: #73839C;
+                    font: 10px/14px $font-regular;
+                }
+            }
+            
+            .candidate_details_block{
+                align-items: center;
+                display: flex;
+
+                img{
+                    height: 40px;
+                    margin-right: 15px;
+                    width: 40px;
+                }
+            }
+
+            .action_btn{
+                button{
+                    background: transparent;
+                    border: none;
+                    outline: none;
+                    color: #5E6871;
+                }
+            }
+        }
+    }
+
+    .page_item_filter_block{
+        align-items: center;
+        display: flex;
+        height: 40px;
+        justify-content: center;
+        margin-top: 8px;
+
+        >span{
+            color: #675799;
+            font: 14px/18px $font-regular;
+        }
+
+        >div{
+            height: 40px;
+            margin: 0 10px;
+
+            .page_list_filter{
+                border: 1px solid #B3ABCC;
+                height: 40px;
+                margin-bottom: 0;
+                padding: 0 10px;
+                width: 68px !important;
+
+                .react-dropdown-select-content{
+                    >span{
+                        color: #121212;
+                        font: 14px/18px $font-regular;
+                    }
+                }
+
+                .react-dropdown-select-dropdown-handle{
+                    height: 16px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    #candidate_pagination{
+        display: flex;
+
+        .page_list_block{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: auto;
+
+            >button{
+                background-color: transparent;
+                border-radius: 4px;
+                border: 1px solid #675799;
+                color: #675799;
+                font: 14px/18px $font-semiBold;
+                height: 40px;
+                margin-top: 8px;
+                outline: none;
+                padding: 0 15px;
+    
+                &:first-child{
+                    margin-right: 8px;
+                }
+    
+                &:last-child{
+                    margin-left: 8px;
+                }
+            }
+    
+            @for $ctr from 1 through 80 {
+                ul[active_page="#{$ctr}"] {
+                    li{
+                        /* Previous ... */ 
+                        &:nth-child(#{$ctr - 3}):not(:nth-child(1)) {
+                            display: inline-block;
+                            width: 39px;
+                            
+                            button{
+                                display: none;
+                            }
+        
+                            &:after {
+                                color: #5D6064;
+                                content: '...';
+                                font-size: 32px;
+                                left: 5px;
+                                letter-spacing: 4px;
+                                position: absolute;
+                                top: -8px;
+                            }
+                        }
+    
+                        &:nth-child(#{$ctr - 2}), &:nth-child(#{$ctr - 1}), &:nth-child(#{$ctr + 1}), &:nth-child(#{$ctr + 2}) {
+                            display: inline-block;
+                        }
+                        
+                        /* Active Page */ 
+                        &:nth-child(#{$ctr + 1}) {
+                            color: #fff;
+                            display: inline-block;
+                    
+                            +&:last-child {
+                                display: none !important;
+                            }
+                        }
+                        
+                        /* Next ... */ 
+                        &:nth-child(#{$ctr + 3}):not(:nth-last-child(1)) {
+                            display: inline-block;
+                            width: 39px;
+                        
+                            button{
+                                display: none;
+                            }
+                            &:after {
+                                color: #5D6064;
+                                content: '...';
+                                font-size: 32px;
+                                left: 5px;
+                                letter-spacing: 4px;
+                                position: absolute;
+                                top: -8px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0px;
+                padding: 0;
+    
+                &:not([actpage="1"]) &_i:nth-child(1) {
+                    display: inline-block;
+                }
+    
+                li{
+                    display: none;
+                    margin-right: 8px;
+                    margin-top: 8px;
+                    position: relative;
+    
+                    &:last-child,
+                    &:nth-child(1),
+                    &:nth-last-child(1) {
+                        display: inline-block;
+                    }
+    
+                    &.active{
+                        display: inline-block;
+    
+                        button{
+                            background-color: #675799;
+                            border: 1px solid #675799;
+                            color: $white;
+                        }
+                    }
+    
+                    &:last-child{
+                        margin-right: 0px;
+                    }
+    
+                    button{
+                        align-items: center;
+                        background: rgba(204, 224, 255, 0.14);
+                        border-radius: 4px;
+                        border: 1px solid #B3ABCC;
+                        color: #675799;
+                        display: flex;
+                        font-family: $font-regular;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 500;
+                        justify-content: center;
+                        line-height: 130%;
+                        min-height: 30px;
+                        min-width: 30px;
+                        outline: none;
+                        padding: 0px 3px;
+                    }
+                }
+            }
+        }
+    }
+}

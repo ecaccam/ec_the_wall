@@ -1,0 +1,13 @@
+<h1>Login</h1>
+<% if flash[:error_messages].present? %>
+<p class="error_message"><%= flash[:error_messages] %></p>
+<% end %>
+<form action="/users/login" method="post" id="login_form">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <label for="">Email Address</label> <br>
+    <input type="email" name="email_address" id="" value="ec@gmail.com"> <br>
+    <label for="">Password</label> <br>
+    <input type="password" name="password" id="" value="123123123"> <br><br>
+    <input type="submit" value="Login"> <br>
+</form>
+<a href="/users/register">Register</a>

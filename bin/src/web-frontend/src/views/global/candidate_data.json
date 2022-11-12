@@ -1,0 +1,490 @@
+{
+    "stage_job_search": [
+        {
+            "label": "Actively Looking-Unemployed",
+            "value": 1
+        },
+        {
+            "label": "Actively Looking-Employed Elsewhere",
+            "value": 2
+        },
+        {
+            "label": "Happy in Current Role, but Open to Great Opportunities",
+            "value": 3
+        },
+        {
+            "label": "Not Currently Looking",
+            "value": 4
+        }
+    ],
+
+    "current_desired_job": [
+        {
+            "label": "Marketing Technologist",
+            "value": 1
+        },
+        {
+            "label": "SEO Consultant",
+            "value": 2
+        },
+        {
+            "label": "Web Analytics Developer",
+            "value": 3
+        },
+        {
+            "label": "Digital Marketing Manager",
+            "value": 4
+        },
+        {
+            "label": "Social Media Manager",
+            "value": 5
+        },
+        {
+            "label": "Growth Hacker",
+            "value": 6
+        },
+        {
+            "label": "Content Manager",
+            "value": 7
+        },
+        {
+            "label": "Technical Writer",
+            "value": 8
+        },
+        {
+            "label": "Content Strategist",
+            "value": 9
+        },
+        {
+            "label": "Information Architect",
+            "value": 10
+        },
+        {
+            "label": "UX Designer ",
+            "value": 11
+        },
+        {
+            "label": "UI Designer",
+            "value": 12
+        },
+        {
+            "label": "Accessibility Specialist",
+            "value": 13
+        },
+        {
+            "label": "Interaction Designer",
+            "value": 14
+        },
+        {
+            "label": "Front-End Designer",
+            "value": 15
+        },
+        {
+            "label": "Front-End Developer",
+            "value": 16
+        },
+        {
+            "label": "Mobile Developer",
+            "value": 17
+        },
+        {
+            "label": "Developer",
+            "value": 18
+        },
+        {
+            "label": "Full-Stack Developer",
+            "value": 19
+        },
+        {
+            "label": "Software Developer",
+            "value": 20
+        },
+        {
+            "label": "WordPress Developer",
+            "value": 21
+        },
+        {
+            "label": "Frameworks Specialist",
+            "value": 22
+        },
+        {
+            "label": "Ruby on Rails Developer",
+            "value": 23
+        },
+        {
+            "label": "Python Developer",
+            "value": 24
+        },
+        {
+            "label": "Business Systems Analyst",
+            "value": 25
+        },
+        {
+            "label": "Systems Engineer",
+            "value": 26
+        },
+        {
+            "label": "Systems Administrator",
+            "value": 27
+        },
+        {
+            "label": "Database Administrator",
+            "value": 28
+        },
+        {
+            "label": "Data Architect",
+            "value": 29
+        },
+        {
+            "label": "Data Modeler",
+            "value": 30
+        },
+        {
+            "label": "Data Analyst",
+            "value": 31
+        },
+        {
+            "label": "Data Scientist",
+            "value": 32
+        },
+        {
+            "label": "Cloud Architect",
+            "value": 33
+        },
+        {
+            "label": "Technical Lead",
+            "value": 34
+        },
+        {
+            "label": "Devops Manager",
+            "value": 35
+        },
+        {
+            "label": "Agile Project Manger",
+            "value": 36
+        },
+        {
+            "label": "Product Manager",
+            "value": 37
+        },
+        {
+            "label": "Technical Account Manager",
+            "value": 38
+        },
+        {
+            "label": "Security Specialist",
+            "value": 39
+        },
+        {
+            "label": "Quality Assurance Specialist",
+            "value": 40
+        },
+        {
+            "label": "Game Developer",
+            "value": 41
+        },
+        {
+            "label": "Computer Graphics Animator",
+            "value": 42
+        },
+        {
+            "label": "Mobile Application Developer",
+            "value": 43
+        },
+        {
+            "label": "OTHER",
+            "value": 44
+        }
+    ],
+
+    "security_clearance": [
+        {
+            "label": "Confidential",
+            "value": 1
+        },
+        {
+            "label": "Secret",
+            "value": 2
+        },
+        {
+            "label": "Top Secret",
+            "value": 3
+        }
+    ],
+
+    "portfolio_link": [
+        {
+            "item_url": ""
+        }
+    ],
+
+    "education_level": [
+        {
+            "label": "Associates",
+            "value": 1
+        },
+        {
+            "label": "Bachelors Degree",
+            "value": 2
+        },
+        {
+            "label": "Graduate Degree",
+            "value": 3
+        },
+        {
+            "label": "Doctorate",
+            "value": 4
+        },
+        {
+            "label": "N/A",
+            "value": 5
+        }
+    ],
+
+    "university": [
+        {
+            "label": "University of Alaska",
+            "value": 0
+        },
+        {
+            "label": "Alaska Christian College",
+            "value": 1
+        },
+        {
+            "label": "National Park Community College",
+            "value": 2
+        },
+        {
+            "label": "University of Alaska Fairbanks",
+            "value": 3
+        },
+        {
+            "label": "University of Arkansas – Fort Smith",
+            "value": 4
+        }
+    ],
+
+    "coding_dojo_program": [
+        {
+            "label": "Software Development",
+            "value": 1
+        },
+        {
+            "label": "Data Science",
+            "value": 2
+        },
+        {
+            "label": "Cybersecurity",
+            "value": 3
+        },
+        {
+            "label": "UI/UX Design",
+            "value": 4
+        }
+    ],
+
+    "career_service_manager": [
+        {
+            "label": "Service Manager 1",
+            "value": 0
+        },
+        {
+            "label": "Service Manager 2",
+            "value": 1
+        },
+        {
+            "label": "Service Manager 3",
+            "value": 2
+        }
+    ],
+
+    "years_of_experience": [
+        {
+            "label": "0-2 Years",
+            "value": 1
+        },
+        {
+            "label": "3-5 Years",
+            "value": 2
+        },
+        {
+            "label": "6-10 Years",
+            "value": 3
+        },
+        {
+            "label": "10+ Years",
+            "value": 4
+        }
+    ],
+
+    "program_coverage": [
+        {
+            "category": "Web Development",
+            "item_list": [
+                {
+                    "label": "Web Fundamentals (onsite)",
+                    "value": 0
+                },
+                {
+                    "label": "HTML/HTML5",
+                    "value": 1
+                },
+                {
+                    "label": "CSS and CSS3",
+                    "value": 2
+                },
+                {
+                    "label": "Twitter Bootstrap",
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "category": "Python (Onsite)",
+            "item_list": [
+                {
+                    "label": "Python",
+                    "value": 4
+                },
+                {
+                    "label": "MySQL",
+                    "value": 5
+                },
+                {
+                    "label": "Flask",
+                    "value": 6
+                }
+            ]
+        }
+    ],
+
+    "vaccination_status": [
+        {
+            "label": "No, I am not vaccinated",
+            "value": 0
+        },
+        {
+            "label": "Yes, I am fully vaccinated",
+            "value": 1
+        },
+        {
+            "label": "I prefer not answer",
+            "value": 2
+        }
+    ],
+
+    "racial_group": [
+        {
+            "label": "Black or African American",
+            "value": 1
+        },
+        {
+            "label": "American Indian or Alaska Native",
+            "value": 2
+        },
+        {
+            "label": "Hispanic or Latino",
+            "value": 3
+        },
+        {
+            "label": "Asian or Pacific Islander",
+            "value": 4
+        },
+        {
+            "label": "White or Caucasian",
+            "value": 5
+        },
+        {
+            "label": "Multiracial or Biracial",
+            "value": 6
+        },
+        {
+            "label": "Race or ethnicity not listed here",
+            "value": 7
+        },
+        {
+            "label": "Prefer not to say",
+            "value": 8
+        }
+    ],
+
+    "gender_identity": [
+        {
+            "label": "Female",
+            "value": 1
+        },
+        {
+            "label": "Male",
+            "value": 2
+        },
+        {
+            "label": "Genderqueer or nonbinary",
+            "value": 3
+        },
+        {
+            "label": "Prefer not to say",
+            "value": 4
+        },
+        {
+            "label": "Other",
+            "value": 5
+        }
+    ],
+
+    "sort_type": [
+        {
+            "label": "Recently Added",
+            "value": 0
+        },
+        {
+            "label": "Recently Updated",
+            "value": 1
+        },
+        {
+            "label": "Alphabetical: A to Z",
+            "value": 2
+        },
+        {
+            "label": "Alphabetical: Z to A",
+            "value": 3
+        }
+    ],
+
+    "page_list_filter": [
+        {
+            "label": 10,
+            "value": 10
+        },
+        {
+            "label": 50,
+            "value": 50
+        },
+        {
+            "label": 100,
+            "value": 100
+        },
+        {
+            "label": 200,
+            "value": 200
+        }
+    ],
+
+    "resume_specialty": [
+        {
+            "label": "resume_specialty_1",
+            "value": 0
+        },
+        {
+            "label": "resume_specialty_2",
+            "value": 1
+        },
+        {
+            "label": "resume_specialty_3",
+            "value": 2
+        },
+        {
+            "label": "resume_specialty_4",
+            "value": 3
+        }
+    ]
+}

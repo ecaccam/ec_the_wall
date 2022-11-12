@@ -1,0 +1,19 @@
+<h1>Register</h1>
+<% if flash[:error_messages].present? %>
+<p class="error_message"><%= flash[:error_messages] %></p>
+<% end %>
+<form action="/users/register" method="post" id="register_form">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <label for="">First Name</label> <br>
+    <input type="text" name="first_name" id="" value="Erick"> <br>
+    <label for="">Last Name</label> <br>
+    <input type="text" name="last_name" id="" value="Caccam"> <br>
+    <label for="">Email</label> <br>
+    <input type="text" name="email_address" id="" value="ec@gmail.com"> <br>
+    <label for="">Password</label> <br>
+    <input type="password" name="password" id="" value="123123123"> <br>
+    <label for="">Confirm Password</label> <br>
+    <input type="password" name="confirm_password" id="" value="123123123"> <br> <br>
+    <input type="submit" value="Register">
+</form>
+<a href="/">Login</a>

@@ -1,0 +1,878 @@
+[
+    {
+        "program_id": 1,
+        "name": "Software Development",
+        "technologies": [ 
+            { "value": 9, "label": "HTML/HTML5", "is_language": true },
+            { "value": 61, "label": "CSS and CSS3", "is_language": true },
+            { "value": 325, "label": "Twitter Bootstrap", "is_language": false },
+            { "value": 384, "label": "Git/GitHub", "is_language": false },
+            { "value": 7, "label": "jQuery", "is_language": false },
+            { "value": 3, "label": "Python", "is_language": true },
+            { "value": 358, "label": "MySQL", "is_language": false },
+            { "value": 50, "label": "Flask", "is_language": false },
+            { "value": 1, "label": "JavaScript", "is_language": true },
+            { "value": 363, "label": "MongoDB", "is_language": false },
+            { "value": 11, "label": "Express", "is_language": false },
+            { "value": 3, "label": "React", "is_language": false },
+            { "value": 5, "label": "Node.js", "is_language": false },
+            { "value": 10, "label": "Socket.IO", "is_language": false },
+            { "value": 399, "label": "APIs", "is_language": false },
+            { "value": 357, "label": "NoSQL", "is_language": false },
+            { "value": 6, "label": "Angular", "is_language": false },
+            { "value": 5, "label": "Ruby", "is_language": true },
+            { "value": 139, "label": "Rails", "is_language": false },
+            { "value": 154, "label": "RSpec", "is_language": false },
+            { "value": 562, "label": "Active Record", "is_language": false },
+            { "value": 380, "label": "Capybara", "is_language": false },
+            { "value": 563, "label": "RESTful Routing", "is_language": false },
+            { "value": 428, "label": "TDD", "is_language": false },
+            { "value": 4, "label": "Java 8", "is_language": true },
+            { "value": 450, "label": "JSP ", "is_language": false },
+            { "value": 564, "label": "Spring MVC", "is_language": false },
+            { "value": 565, "label": "Spring Boot", "is_language": false },
+            { "value": 133, "label": "JVM", "is_language": false },
+            { "value": 7, "label": "C#", "is_language": true },
+            { "value": 206, "label": ".NET Core or .NET6", "is_language": false },
+            { "value": 566, "label": "LINQ", "is_language": false },
+            { "value": 567, "label": ".NET Core MVC", "is_language": false },
+            { "value": 210, "label": "Entity Framework Core", "is_language": false }
+        ]
+    },
+    {
+        "program_id": 2,
+        "name": "Data Science",
+        "technologies": [
+            { "value": 3, "label": "Python", "is_language": true },
+            { "value": 14, "label": "SQL", "is_language": true },
+            {
+                "value": 52,
+                "label": "Pandas",
+                "is_language": false
+            },
+            {
+                "value": 56,
+                "label": "Bokeh",
+                "is_language": false
+            },
+            {
+                "value": 65,
+                "label": "SQLAlchemy",
+                "is_language": false
+            },
+            {
+                "value": 77,
+                "label": "Spark",
+                "is_language": false
+            },
+            {
+                "value": 134,
+                "label": "Kafka",
+                "is_language": false
+            },
+            {
+                "value": 336,
+                "label": "Kubernetes",
+                "is_language": false
+            },
+            {
+                "value": 362,
+                "label": "SQLite",
+                "is_language": false
+            },
+            {
+                "value": 367,
+                "label": "Hadoop",
+                "is_language": false
+            },
+            {
+                "value": 371,
+                "label": "Hive",
+                "is_language": false
+            },
+            {
+                "value": 569,
+                "label": "NumPy",
+                "is_language": false
+            },
+            {
+                "value": 570,
+                "label": "Folium",
+                "is_language": false
+            },
+            {
+                "value": 571,
+                "label": "Matplotlib",
+                "is_language": false
+            },
+            {
+                "value": 572,
+                "label": "Seaborn",
+                "is_language": false
+            },
+            {
+                "value": 573,
+                "label": "Google Colaboratory",
+                "is_language": false
+            },
+            {
+                "value": 574,
+                "label": "SciPy",
+                "is_language": false
+            },
+            {
+                "value": 575,
+                "label": "Scikit-Learn",
+                "is_language": false
+            },
+            {
+                "value": 576,
+                "label": "XGBoost",
+                "is_language": false
+            },
+            {
+                "value": 577,
+                "label": "LightGBM",
+                "is_language": false
+            },
+            {
+                "value": 578,
+                "label": "Keras",
+                "is_language": false
+            },
+            {
+                "value": 579,
+                "label": "TensorFlow",
+                "is_language": false
+            },
+            {
+                "value": 580,
+                "label": "Machine Learning",
+                "is_language": false
+            },
+            {
+                "value": 581,
+                "label": "Neural Networks",
+                "is_language": false
+            },
+            {
+                "value": 582,
+                "label": "GeoPy",
+                "is_language": false
+            },
+            {
+                "value": 583,
+                "label": "Time-Series Analysis",
+                "is_language": false
+            },
+            {
+                "value": 584,
+                "label": "Signal Processing",
+                "is_language": false
+            },
+            {
+                "value": 585,
+                "label": "Imaging Processing",
+                "is_language": false
+            },
+            {
+                "value": 586,
+                "label": "Data Visualization",
+                "is_language": false
+            },
+            {
+                "value": 587,
+                "label": "Ggplot",
+                "is_language": false
+            },
+            {
+                "value": 588,
+                "label": "plotly",
+                "is_language": false
+            },
+            {
+                "value": 589,
+                "label": "ParaView",
+                "is_language": false
+            },
+            {
+                "value": 590,
+                "label": "Geospatial Analysis (ArcGIS, QGIS)",
+                "is_language": false
+            },
+            {
+                "value": 591,
+                "label": "PySpark",
+                "is_language": false
+            },
+            {
+                "value": 592,
+                "label": "Beautifulsoup4",
+                "is_language": false
+            },
+            {
+                "value": 593,
+                "label": "Mapreduce",
+                "is_language": false
+            },
+            {
+                "value": 594,
+                "label": "Deep Learning",
+                "is_language": false
+            },
+            {
+                "value": 595,
+                "label": "Computer Vision",
+                "is_language": false
+            },
+            {
+                "value": 596,
+                "label": "Distributed Computing",
+                "is_language": false
+            },
+            {
+                "value": 597,
+                "label": "Data Scrubbing",
+                "is_language": false
+            },
+            {
+                "value": 598,
+                "label": "Reinforcement Learning",
+                "is_language": false
+            },
+            {
+                "value": 599,
+                "label": "Naïve Bayes",
+                "is_language": false
+            }
+        ]
+    },
+    {
+        "program_id": 3,
+        "name": "Cybersecurity",
+        "technologies": [
+            {
+                "value": 338,
+                "label": "Linux",
+                "is_language": false
+            },
+            {
+                "value": 414,
+                "label": "TCP/IP",
+                "is_language": false
+            },
+            {
+                "value": 600,
+                "label": "Kali Linux",
+                "is_language": false
+            },
+            {
+                "value": 601,
+                "label": "Windows",
+                "is_language": false
+            },
+            {
+                "value": 602,
+                "label": "VPN",
+                "is_language": false
+            },
+            {
+                "value": 603,
+                "label": "SSH Server",
+                "is_language": false
+            },
+            {
+                "value": 604,
+                "label": "VMs",
+                "is_language": false
+            },
+            {
+                "value": 605,
+                "label": "Metasploit",
+                "is_language": false
+            },
+            {
+                "value": 606,
+                "label": "Windows Active Directory",
+                "is_language": false
+            },
+            {
+                "value": 607,
+                "label": "SOHO Networks",
+                "is_language": false
+            },
+            {
+                "value": 608,
+                "label": "Nmap",
+                "is_language": false
+            },
+            {
+                "value": 609,
+                "label": "Wireshark",
+                "is_language": false
+            },
+            {
+                "value": 610,
+                "label": "Powershell",
+                "is_language": false
+            },
+            {
+                "value": 611,
+                "label": "IPv4",
+                "is_language": false
+            },
+            {
+                "value": 612,
+                "label": "Cloud Access Security Broker",
+                "is_language": false
+            },
+            {
+                "value": 613,
+                "label": "SIEM Principles",
+                "is_language": false
+            },
+            {
+                "value": 614,
+                "label": "String search",
+                "is_language": false
+            },
+            {
+                "value": 615,
+                "label": "Script",
+                "is_language": false
+            },
+            {
+                "value": 616,
+                "label": "Attack Vectors",
+                "is_language": false
+            },
+            {
+                "value": 617,
+                "label": "Security Content Automation Protocol (SCAP)",
+                "is_language": false
+            },
+            {
+                "value": 618,
+                "label": "tcpdump ",
+                "is_language": false
+            }
+        ]
+    },
+    {
+        "program_id": 4,
+        "name": "UX/UI",
+        "technologies": [
+            {
+                "value": 475,
+                "label": "Figma",
+                "is_language": false
+            },
+            {
+                "value": 479,
+                "label": "Sketch/Invision ",
+                "is_language": false
+            },
+            {
+                "value": 619,
+                "label": "GDocs",
+                "is_language": false
+            },
+            {
+                "value": 620,
+                "label": "Miro",
+                "is_language": false
+            },
+            {
+                "value": 621,
+                "label": "Otter",
+                "is_language": false
+            },
+            {
+                "value": 622,
+                "label": "Plugins",
+                "is_language": false
+            },
+            {
+                "value": 623,
+                "label": "ZeroHeight",
+                "is_language": false
+            },
+            {
+                "value": 624,
+                "label": "Keynote",
+                "is_language": false
+            },
+            {
+                "value": 625,
+                "label": "Trello",
+                "is_language": false
+            }
+        ]
+    },
+    {
+        "program_id": 5,
+        "name": "Languages/Frameworks",
+        "technologies": [
+            {
+                "value": 6,
+                "label": "PHP",
+                "is_language": true
+            },
+            {
+                "value": 8,
+                "label": "C++",
+                "is_language": true
+            },
+            {
+                "value": 10,
+                "label": "Swift",
+                "is_language": true
+            },
+            {
+                "value": 21,
+                "label": "Go",
+                "is_language": true
+            },
+            {
+                "value": 23,
+                "label": "R",
+                "is_language": true
+            },
+            {
+                "value": 38,
+                "label": "Scala",
+                "is_language": true
+            },
+            {
+                "value": 41,
+                "label": "Julia",
+                "is_language": true
+            },
+            {
+                "value": 60,
+                "label": "TypeScript",
+                "is_language": true
+            },
+            {
+                "value": 63,
+                "label": "Stata",
+                "is_language": true
+            },
+            {
+                "value": 4,
+                "label": "Redux",
+                "is_language": false
+            },
+            {
+                "value": 25,
+                "label": "Mongoose",
+                "is_language": false
+            },
+            {
+                "value": 327,
+                "label": "XPath",
+                "is_language": false
+            },
+            {
+                "value": 626,
+                "label": "LATEX",
+                "is_language": false
+            },
+            {
+                "value": 627,
+                "label": "SPSS",
+                "is_language": false
+            },
+            {
+                "value": 628,
+                "label": "SAS",
+                "is_language": false
+            },
+            {
+                "value": 629,
+                "label": "VBA",
+                "is_language": false
+            },
+            {
+                "value": 630,
+                "label": "Octave",
+                "is_language": false
+            },
+            {
+                "value": 631,
+                "label": "Oracle APEX",
+                "is_language": false
+            }
+        ]
+    },
+    {
+        "program_id": 6,
+        "name": "Databases",
+        "technologies": [
+            {
+                "value": 288,
+                "label": "Core Data",
+                "is_language": false
+            },
+            {
+                "value": 332,
+                "label": "AWS",
+                "is_language": false
+            },
+            {
+                "value": 366,
+                "label": "Oracle",
+                "is_language": false
+            },
+            {
+                "value": 632,
+                "label": "CRUD",
+                "is_language": false
+            },
+            {
+                "value": 633,
+                "label": "Aurora",
+                "is_language": false
+            },
+            {
+                "value": 634,
+                "label": "AWS Cassandra",
+                "is_language": false
+            },
+            {
+                "value": 635,
+                "label": "Google CloudSQL",
+                "is_language": false
+            },
+            {
+                "value": 636,
+                "label": "Google BigTable",
+                "is_language": false
+            }
+        ]
+    },
+    {
+        "program_id": 7,
+        "name": "Business Intelligence Tools",
+        "technologies": [
+            {
+                "value": 637,
+                "label": "PowerBI ",
+                "is_language": false
+            },
+            {
+                "value": 638,
+                "label": "Tableau ",
+                "is_language": false
+            },
+            {
+                "value": 639,
+                "label": "Looker ",
+                "is_language": false
+            }
+        ]
+    },
+    {
+        "program_id": 8,
+        "name": "Management",
+        "technologies": [
+            {
+                "value": 640,
+                "label": "Mentoring",
+                "is_language": false
+            },
+            {
+                "value": 641,
+                "label": "Cross Functional Teams",
+                "is_language": false
+            },
+            {
+                "value": 642,
+                "label": "Research Facility Management",
+                "is_language": false
+            },
+            {
+                "value": 643,
+                "label": "Managed a team of 5+",
+                "is_language": false
+            },
+            {
+                "value": 644,
+                "label": "Team Leadership",
+                "is_language": false
+            },
+            {
+                "value": 645,
+                "label": "Management",
+                "is_language": false
+            }
+        ]
+    },
+    {
+        "program_id": 9,
+        "name": "Industry Knowledge",
+        "technologies": [
+            {
+                "value": 646,
+                "label": "Real Estate Investment & Finance",
+                "is_language": false
+            },
+            {
+                "value": 647,
+                "label": "Investment Strategy",
+                "is_language": false
+            },
+            {
+                "value": 648,
+                "label": "Portfolio Management",
+                "is_language": false
+            },
+            {
+                "value": 649,
+                "label": "Financial Services",
+                "is_language": false
+            },
+            {
+                "value": 650,
+                "label": "Bioinformatics",
+                "is_language": false
+            },
+            {
+                "value": 651,
+                "label": "Consulting",
+                "is_language": false
+            },
+            {
+                "value": 652,
+                "label": "Health Science",
+                "is_language": false
+            },
+            {
+                "value": 653,
+                "label": "Experience Working with Medical Data",
+                "is_language": false
+            },
+            {
+                "value": 654,
+                "label": "Quant Experience",
+                "is_language": false
+            },
+            {
+                "value": 655,
+                "label": "Retail or consumer data",
+                "is_language": false
+            },
+            {
+                "value": 656,
+                "label": "Background in Biological Sciences",
+                "is_language": false
+            },
+            {
+                "value": 657,
+                "label": "Cyber Security Experience",
+                "is_language": false
+            },
+            {
+                "value": 658,
+                "label": "Customer Service",
+                "is_language": false
+            },
+            {
+                "value": 659,
+                "label": "Curriculum Development",
+                "is_language": false
+            },
+            {
+                "value": 660,
+                "label": "Client Relation",
+                "is_language": false
+            },
+            {
+                "value": 661,
+                "label": "Startups",
+                "is_language": false
+            },
+            {
+                "value": 662,
+                "label": "Software Development Life Cycle",
+                "is_language": false
+            },
+            {
+                "value": 663,
+                "label": "Project Management",
+                "is_language": false
+            },
+            {
+                "value": 664,
+                "label": "Salesforce",
+                "is_language": false
+            },
+            {
+                "value": 665,
+                "label": "Sales",
+                "is_language": false
+            },
+            {
+                "value": 666,
+                "label": "Reporting and Analysis",
+                "is_language": false
+            },
+            {
+                "value": 667,
+                "label": "Customer Service",
+                "is_language": false
+            },
+            {
+                "value": 668,
+                "label": "Data Analysis",
+                "is_language": false
+            },
+            {
+                "value": 669,
+                "label": "Digital Marketing",
+                "is_language": false
+            },
+            {
+                "value": 670,
+                "label": "Research and Development",
+                "is_language": false
+            },
+            {
+                "value": 671,
+                "label": "E-Commerce",
+                "is_language": false
+            },
+            {
+                "value": 672,
+                "label": "Government",
+                "is_language": false
+            },
+            {
+                "value": 673,
+                "label": "Healthcare",
+                "is_language": false
+            },
+            {
+                "value": 674,
+                "label": "Human Resources",
+                "is_language": false
+            },
+            {
+                "value": 675,
+                "label": "Hospitality",
+                "is_language": false
+            },
+            {
+                "value": 676,
+                "label": "Inventory Management",
+                "is_language": false
+            },
+            {
+                "value": 677,
+                "label": "Business Intelligence",
+                "is_language": false
+            },
+            {
+                "value": 678,
+                "label": "Social Media",
+                "is_language": false
+            },
+            {
+                "value": 679,
+                "label": "Marketing",
+                "is_language": false
+            },
+            {
+                "value": 680,
+                "label": "Non Profits",
+                "is_language": false
+            },
+            {
+                "value": 681,
+                "label": "Operations Management",
+                "is_language": false
+            },
+            {
+                "value": 682,
+                "label": "Business to Business (B2B",
+                "is_language": false
+            },
+            {
+                "value": 683,
+                "label": "Business to Consumer (B2C)",
+                "is_language": false
+            },
+            {
+                "value": 684,
+                "label": "Project Planning",
+                "is_language": false
+            },
+            {
+                "value": 685,
+                "label": "Quality Assurance",
+                "is_language": false
+            },
+            {
+                "value": 686,
+                "label": "Retail",
+                "is_language": false
+            }
+        ]
+    },
+    {
+        "program_id": 10,
+        "name": "Additional Misc",
+        "technologies": [
+            {
+                "value": 316,
+                "label": "GraphQL",
+                "is_language": false
+            },
+            {
+                "value": 335,
+                "label": "Docker",
+                "is_language": false
+            },
+            {
+                "value": 339,
+                "label": "Heroku",
+                "is_language": false
+            },
+            {
+                "value": 401,
+                "label": "REST",
+                "is_language": false
+            },
+            {
+                "value": 413,
+                "label": "DevOps",
+                "is_language": false
+            },
+            {
+                "value": 687,
+                "label": "AGILE Methodologies",
+                "is_language": false
+            },
+            {
+                "value": 688,
+                "label": "Object Oriented Programming (OOP)",
+                "is_language": false
+            },
+            {
+                "value": 689,
+                "label": "AWS ECB/ECR/EC2",
+                "is_language": false
+            },
+            {
+                "value": 690,
+                "label": "Shell",
+                "is_language": false
+            },
+            {
+                "value": 691,
+                "label": "Bash",
+                "is_language": false
+            }
+        ]
+    }
+]

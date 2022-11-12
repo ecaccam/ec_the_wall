@@ -1,0 +1,72 @@
+@import url("../../global/global.scss");
+
+/* FONT */
+$font-light: "Poppins-Light";
+$font-thin: "Poppins-Thin";
+$font-italic: "Poppins-Italic";
+$font-regular: "Poppins-Regular";
+$font-semiBold: "Poppins-SemiBold";
+$font-bold: "Poppins-Bold";
+$font-black: "Poppins-Black";
+
+/* COLOR */
+$blue: #2C6BFF;
+$white: #fff;
+$black: #000;
+
+html, body, #root{
+    height: 100%;
+    margin: 0;
+}
+
+grammarly-desktop-integration{
+    display: none;
+}
+
+#signout_wrapper{
+    background: url("https://cutecdn.codingdojo.com/new_design_image/talent_book/onboard_bg.svg") no-repeat -270px -550px / 2200px;
+    min-height: 100%;
+    min-width: 1400px;
+    padding: 0 40px;
+
+    .cd_logo{
+        display: block;
+        margin-bottom: 15px;
+
+        img{
+            margin-top: 37px;
+        }
+    }
+
+    @media screen and (min-width: 1680px) {
+        background: url(https://cutecdn.codingdojo.com/new_design_image/talent_book/onboard_bg.svg) no-repeat 0px -456px/1908px;
+        margin: 0 auto;
+        max-width: 1930px;
+    }
+}
+
+.logout_modal{
+    margin-top: 200px;
+
+    .modal-dialog{
+        .modal-content{
+            box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+            border-radius: 5px;
+            padding: 20px;
+
+            h4{
+                color: #000;
+                font: 16px/20px $font-regular;
+                font-weight: 600;
+                margin: 0 0 25px 0;
+            }
+        
+            p{
+                color: #000;
+                font: 16px/20px $font-regular;
+                font-weight: 400;
+                margin: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+/* FONT */
+$font-light: "Poppins-Light";
+$font-thin: "Poppins-Thin";
+$font-italic: "Poppins-Italic";
+$font-regular: "Poppins-Regular";
+$font-semiBold: "Poppins-SemiBold";
+$font-bold: "Poppins-Bold";
+$font-black: "Poppins-Black";
+
+/* COLOR */
+$blue: #2C6BFF;
+$white: #fff;
+$black: #000;
+
+.save_exit_modal{
+    .modal-dialog{
+        height: 278px;
+        max-height: 278px;
+        max-width: 462px;
+        width: 462px;
+
+        .modal-content{
+            border: none;
+
+            .modal-header{
+                padding: 21px 17px 0 0;
+                border: none;
+                .btn-close{
+                    color: #394A64;
+                }
+            }
+
+            .modal-body{
+                border: none; 
+                padding: 9px 30px 2px 30px;
+
+                h3{
+                    color: $black;
+                    font: 16px/20px $font-semiBold;
+                }
+
+                p{
+                    color: $black;
+                    font: 16px/20px $font-regular;
+                    margin-bottom: 4px;
+                }
+            }
+
+            .modal-footer{
+                border: none;
+                padding: 7px 20px 30px;
+
+                button{
+                    border-radius: 4px;
+                    color: $white;
+                    font: 16px/20px $font-semiBold;
+                    height: 46px;
+                    margin: 0;
+                    width: 164px;
+
+                    &.exit_btn{
+                        background: $blue;
+                    }
+
+                    &.cancel_btn{
+                        background: transparent;
+                        border: none;
+                        color: #394A64;
+                        margin-right: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

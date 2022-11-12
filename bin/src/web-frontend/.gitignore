@@ -1,0 +1,8 @@
+**/node_modules
+**/public/assets/cache
+**/dist-server
+**/package-lock.json
+**/server/config/*.env.yml
+**/dump.rdb
+**/.vscode
+**/.env
